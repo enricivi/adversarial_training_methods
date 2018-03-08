@@ -3,17 +3,21 @@ Adversarial and virtual adversarial training methods for semi-supervised text cl
 
 Based on the paper:
 
-Adversarial training methods for semi-supervised text classification, ICLR 2017, Miyato T., Dai A., Goodfellow I.
+[Adversarial training methods for semi-supervised text classification, ICLR 2017, Miyato T., Dai A., Goodfellow I.
+](https://arxiv.org/abs/1605.07725)
+
+Without the pre-training phase
 
 ## Requirements
 
 Package | Version
-------- | -------
+:-------: | :-------:
 [Python](https://www.python.org/downloads/) | 3.5.4
+[Jupyter](http://jupyter.org/install) | 1.0.0
 [Tensorflow](https://www.tensorflow.org/versions/r1.5/) | r1.5
 [GloVe](https://nlp.stanford.edu/projects/glove/) | 1.2
 [NLTK](http://www.nltk.org/install.html) | 3.2.5
-[Jupyter](http://jupyter.org/install) | 1.0.0
+[ProgressBar2](https://pypi.python.org/pypi/progressbar2) | 3.34.3
 
 ## Dataset creation
 
@@ -32,9 +36,8 @@ Sequences are truncated at 1200 (pyramidal model), 600 and 400 to test the sensi
 ## Script sequence
 
 1.
-2. 
+2.
 3.
-
 
 ## Results
 

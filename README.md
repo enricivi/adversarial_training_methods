@@ -5,7 +5,7 @@ Based on the paper:
 
 Adversarial training methods for semi-supervised text classification, ICLR 2017, Miyato T., Dai A., Goodfellow I.
 
-## Requiremens
+## Requirements
 
 Package | Version
 ------- | -------
@@ -13,10 +13,7 @@ Package | Version
 [Tensorflow](https://www.tensorflow.org/versions/r1.5/) | r1.5
 [GloVe](https://nlp.stanford.edu/projects/glove/) | 1.2
 [NLTK](http://www.nltk.org/install.html) | 3.2.5
-[Jupyther](http://jupyter.org/install) | 1.0.0
-
-## Usage
-
+[Jupyter](http://jupyter.org/install) | 1.0.0
 
 ## Dataset creation
 

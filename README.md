@@ -2,11 +2,9 @@
 Adversarial and virtual adversarial training methods for semi-supervised text classification.
 
 Based on the paper:
-
 [Adversarial training methods for semi-supervised text classification, ICLR 2017, Miyato T., Dai A., Goodfellow I.
 ](https://arxiv.org/abs/1605.07725)
-
-Without the pre-training phase
+####Without the pre-training phase
 
 ## Requirements
 
@@ -18,6 +16,9 @@ Package | Version
 [GloVe](https://nlp.stanford.edu/projects/glove/) | 1.2
 [NLTK](http://www.nltk.org/install.html) | 3.2.5
 [ProgressBar2](https://pypi.python.org/pypi/progressbar2) | 3.34.3
+[Matplotlib](https://matplotlib.org/2.1.2/index.html) | 2.1.2
+[Argparse](https://pypi.python.org/pypi/argparse/1.1) | 2.1.2
+
 
 ## Dataset creation
 
@@ -32,12 +33,6 @@ Then we have to do the following steps:
 ## Training
 
 Sequences are truncated at 1200 (pyramidal model), 600 and 400 to test the sensitivity of the model to reviews lengths. In particular we cut off or add zero-padding at the initial part of the review.
-
-## Script sequence
-
-1.
-2.
-3.
 
 ## Results
 

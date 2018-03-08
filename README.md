@@ -17,7 +17,7 @@ Package | Version
 [NLTK](http://www.nltk.org/install.html) | 3.2.5
 [ProgressBar2](https://pypi.python.org/pypi/progressbar2) | 3.34.3
 [Matplotlib](https://matplotlib.org/2.1.2/index.html) | 2.1.2
-[Argparse](https://pypi.python.org/pypi/argparse/1.1) | 2.1.2
+[Argparse](https://pypi.python.org/pypi/argparse/1.1) | 1.1
 
 
 ## Dataset creation

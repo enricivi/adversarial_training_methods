@@ -4,7 +4,8 @@ Adversarial and virtual adversarial training methods for semi-supervised text cl
 Based on the paper:
 [Adversarial training methods for semi-supervised text classification, ICLR 2017, Miyato T., Dai A., Goodfellow I.
 ](https://arxiv.org/abs/1605.07725)
-####Without the pre-training phase
+
+**Without the pre-training phase**
 
 ## Requirements
 

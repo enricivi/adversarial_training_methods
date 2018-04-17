@@ -26,16 +26,21 @@ Package | Version
 Download the [IMDB](http://ai.stanford.edu/~amaas/data/sentiment/) dataset.
 
 Then we have to do the following steps:
-* preprocess both train and unlabeled sequences tokenizing and removing punctuation
+* preprocess both train and unlabeled sequences tokenizing and removing punctuation using _glove_training_preparation.ipynb_
 * set the vectors length at 256 and remove words appearing in less than 3 reviews in the GloVe training script
 * run GloVe training script
-* 5% of the training set is used for validation
+* create the embedding matrix (used by the network) and the dictionary (used to convert reviews in sequences of index) using _pretrained_glove_embedding_script.ipynb_
+* convert reviews in sequences of index using _dataset_script.pynb_ and _test_dataset_script.ipynb_
 
 ## Training
 
-Sequences are truncated at 1200 (pyramidal model), 600 and 400 to test the sensitivity of the model to reviews lengths. In particular we cut off or add zero-padding at the initial part of the review.
+5% of the training set is used for validation
+
+use _paper_network.ipynb_ or _pyramidal_network.ipynb_ according to the network architecture you want to use.
 
 ## Results
+
+Sequences are truncated at 1200 (pyramidal model), 600 and 400 to test the sensitivity of the model to reviews lengths. In particular we cut off or add zero-padding at the initial part of the review.
 
 Method | Seq. Length | Epochs | Accuracy
 :------: | :-----------: | :------: | :--------:

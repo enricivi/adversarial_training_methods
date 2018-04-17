@@ -26,7 +26,7 @@ Package | Version
 Download the [IMDB](http://ai.stanford.edu/~amaas/data/sentiment/) dataset.
 
 Then we have to do the following steps:
-* preprocess both train and unlabeled sequences tokenizing and removing punctuation using _glove_training_preparation.ipynb_
+* prepare dataset in order to train GloVe using _glove_training_preparation.ipynb_
 * set the vectors length at 256 and remove words appearing in less than 3 reviews in the GloVe training script
 * run GloVe training script
 * create the embedding matrix (used by the network) and the dictionary (used to convert reviews in sequences of index) using _pretrained_glove_embedding_script.ipynb_

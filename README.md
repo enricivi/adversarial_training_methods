@@ -38,6 +38,10 @@ Then we have to do the following steps:
 
 use _paper_network.ipynb_ or _pyramidal_network.ipynb_ according to the network architecture you want to use.
 
+Paper model | Pyramidal model
+:---------: | :-------------:
+![alt text](images_readme/paper_model.png "Paper model") | ![alt text](images_readme/pyramidal_model.png "Pyramidal model")
+
 ## Results
 
 Sequences are truncated at 1200 (pyramidal model), 600 and 400 to test the sensitivity of the model to reviews lengths. In particular we cut off or add zero-padding at the initial part of the review.
